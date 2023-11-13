@@ -1,0 +1,15 @@
+Things to correct
+Sesons:
+1. Indian dateTime
+2. fix Null check
+
+Things to do
+1. community season mapping
+
+checks
+1. user valid
+2. user in community & user role - implicit 1
+3. 
+
+Pointers:
+1. events, tasks, group controllers & routes won't be used in the first build

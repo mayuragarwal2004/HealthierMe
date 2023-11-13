@@ -1,0 +1,112 @@
+1. Insert Season
+    note :
+        a. NumOpts should be automatic
+        b. minToComp always less than NumOpts
+        c. endDate > startDate
+    
+{
+    "step": 1,
+    "season": {
+        "sId":"s1687186312939",
+        "sName": "Season1",
+        "sStart": "2023-06-19T20:24",
+        "sEnd": "2023-06-19T21:24",
+        "challengeNo": 1
+    },
+    "challenge": [
+        {
+            "cId": "c1687186312939",
+            "cName": "jv",
+            "cDesc": "vj",
+            "cStart": "2023-06-19T20:24",
+            "cEnd": "2023-06-20T20:24",
+            "group": [
+                {
+                    "gId": "g1687186319821",
+                    "gName": "",
+                    "numOpts": 1,
+                    "minToComp": 1,
+                    "taskIds": [
+                        "t1687186312945"
+                    ],
+                    "eventIds": []
+                }
+            ],
+            "task": [
+                {
+                    "tId": "t1687186312945",
+                    "tName": "walking",
+                    "tDesc": "walk 3000 unit steps daily for 21 days",
+                    "tQuant": 3000,
+                    "tUnit": "units",
+                    "tPeriodUnit": "daily",
+                    "tTC": 21,
+                    "tStart": "2023-06-19T20:24",
+                    "tEnd": "2023-06-20T20:24",
+                    "gId": "g1687186319821"
+                }
+                  
+            ],
+            "event": [
+                {
+                    "eId": "e1687186312078",
+                    "eName": "Zumba",
+                    "eDesc": "Zumba",
+                    "eStart": "2023-06-19T20:24",
+                    "eEnd": "2023-06-20T20:24",
+                    "eFreq": 1,
+                    "gId": ""
+                }
+            ]
+        }
+    ]
+}
+
+
+Activity Status
+
+route body :
+userId : ""
+commId : ''
+seasonId: ''
+cId :''
+actId : ''
+date : ''
+ts : ''
+quant : '' 
+
+
+mongo model:
+userId : "6Z9Jp5dgq9YkzhkPOhGCf63yjQx2"
+user : [
+        {
+            cId: "c1687186312939"
+            chlg : [
+                {
+                    actId : "t1687186312939"
+                    act : [
+                        {
+                            date : 
+                            ts :
+                            quant : 
+                        }
+                    ]
+                }
+            ]
+        }
+
+    ]
+
+{
+userId : "6Z9Jp5dgq9YkzhkPOhGCf63yjQx2"
+cId: "c1687186312939"
+actId : "t1687186312939"
+act : [
+        {
+            date : 
+            ts :
+            quant : 
+        }
+    ]
+}
+          

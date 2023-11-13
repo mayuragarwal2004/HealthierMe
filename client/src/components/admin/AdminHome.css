@@ -1,0 +1,24 @@
+.admin-home-parent{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.create-community-button{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.community-card-parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.community-card{
+    margin: 10px 0;
+}

@@ -1,0 +1,163 @@
+.club-season-info {
+  display: flex;
+  /* width: fit-content; */
+}
+
+.club-parent,
+.season-parent {
+  background-color: #ffe4e4;
+  border: 2px solid rgb(122, 122, 122);
+  border-radius: 10px;
+  padding: 0 10px;
+  margin: 5px;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.club-parent {
+  max-width: calc(60% - 30px);
+}
+
+.season-parent {
+  width: fit-content;
+  max-width: calc(40% - 30px);
+}
+
+.season-heading-main {
+  font-size: larger;
+}
+
+.season-main {
+  font-size: x-large;
+  font-weight: bold;
+  color: #7d0000;
+}
+
+.club-name-main {
+  font-size: x-large;
+  font-weight: bold;
+  color: #7d0000;
+}
+
+.club-branch-main {
+  font-size: large;
+  font-weight: bold;
+  color: #7d0000;
+}
+
+.challengedetails {
+  margin: 3px 0;
+}
+
+.challenge-completed-details-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.challenge-details-row1 {
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+}
+
+.challenge-details-row1 .box {
+  background-color: purple;
+  width: 30%;
+}
+
+.challenge-completed-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.challenge-completed-details-value .main-value {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.challenge-completed-details-heading {
+  font-size: large;
+}
+
+/* Row 1, Box 2 */
+.challenge-available-details,
+.view-all-challenges-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  font-weight: 500;
+  font-size: large;
+}
+
+/* Row 2 */
+.challenge-details-row2 {
+  margin: 5px 0;
+}
+
+/* Specific Challenge */
+.specific-challenge-detail-parent{
+  width: 100%;
+  overflow: hidden;
+}
+.specific-challenge-detail {
+  width: 95%;
+  background-color: #c6ffec;
+  margin: 10px auto;
+  border: #939393 solid 1px;
+}
+
+.specific-challenge-detail-heading {
+  display: flex;
+  justify-content: space-around;
+  color: #7d0000;
+  align-items: center;
+  font-weight: bold;
+}
+
+.specific-challenge-detail-heading > .left-heading {
+  font-size: large;
+}
+
+.specific-challenge-detail-heading > .center-heading {
+  font-size: larger;
+}
+
+.specific-challenge-detail-heading > .right-heading {
+  font-size: medium;
+}
+
+.specific-challenge-detail-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px;
+}
+
+.specific-challenge-detail-body .activity-number {
+  font-weight: 600;
+}
+
+.specific-challenge-detail-body .activity-detail {
+  color: blue;
+}
+
+.specific-challenge-detail-body .activity-detail-heading {
+  font-weight: 700;
+}
+
+.specific-challenge-detail-body .activity-detail-body {
+  font-weight: 500;
+}
+
+.specific-challenge-detail-body > .right-body svg {
+  color: black;
+  margin: 0 5px;
+  background-color: #fafafa;
+  padding: 3px;
+  border-radius: 5px;
+  border: 1px solid #7d7d7d;
+}

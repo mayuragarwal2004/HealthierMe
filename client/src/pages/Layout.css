@@ -1,0 +1,22 @@
+body, #root, .home-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #eee;
+}
+
+header{
+  width: 100%;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.home-main{
+  width: 100%;
+  overflow: auto;
+}

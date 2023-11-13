@@ -1,0 +1,14 @@
+.auth-form{
+    max-width: 400px;
+    width: 50%;
+    margin: auto;
+}
+
+.home-container{
+    align-items: center;
+    justify-content: center;
+}
+
+.home-agenda{
+    width: 90%;
+}
